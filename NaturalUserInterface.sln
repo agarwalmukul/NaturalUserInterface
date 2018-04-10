@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalUserInterface", "NaturalUserInterface.csproj", "{861CAEE2-E17D-4AFC-2F3F-1FE248AC827C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalUserInterface.Editor", "NaturalUserInterface.Editor.csproj", "{40AB0F14-D62F-6C87-DCA3-302844844CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{861CAEE2-E17D-4AFC-2F3F-1FE248AC827C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861CAEE2-E17D-4AFC-2F3F-1FE248AC827C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861CAEE2-E17D-4AFC-2F3F-1FE248AC827C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861CAEE2-E17D-4AFC-2F3F-1FE248AC827C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AB0F14-D62F-6C87-DCA3-302844844CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AB0F14-D62F-6C87-DCA3-302844844CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AB0F14-D62F-6C87-DCA3-302844844CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AB0F14-D62F-6C87-DCA3-302844844CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

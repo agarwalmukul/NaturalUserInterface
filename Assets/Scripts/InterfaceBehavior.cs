@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Leap.Unity;
 
 public class InterfaceBehavior : MonoBehaviour
 {
@@ -39,7 +40,7 @@ public class InterfaceBehavior : MonoBehaviour
             //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Ray ray = new Ray(pointer.transform.position, pointer.transform.forward);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, distance))
+            if (Physics.Raycast(ray, out hit, distance, 1<<5))
             {
                 //draw invisible ray cast/vector
                 //Debug.DrawLine(ray.origin, hit.point, Color.red, 2);
@@ -47,12 +48,23 @@ public class InterfaceBehavior : MonoBehaviour
                 Debug.Log("world" + hit.point);
                 vertexMover(hit.collider.gameObject, hit.point);
                 lineRenderer.SetPosition(1, hit.point);
-                dot.SetActive(true);
+                
                 float distance = hit.distance;
-                dot.transform.position = hit.point;
+                
                 float scaleY = (distance - 0.1f) > 0 ? 0.0f : -1.0f * (distance - 0.1f);
-                dot.transform.localScale = new Vector3(dot.transform.localScale.x, scaleY, dot.transform.localScale.z);
-                //Debug.Log(hit.collider.gameObject.Name);
+                if (scaleY != 0.0f)
+                {
+                    if (!dot.activeSelf)
+                    {
+                        dot.transform.position = hit.point;
+                    }
+                    dot.SetActive(true);
+                    dot.transform.localScale = new Vector3(dot.transform.localScale.x, scaleY, dot.transform.localScale.z);
+                    //Debug.Log(hit.collider.gameObject.Name);
+                }
+                else {
+                    dot.SetActive(false);
+                }
 
             }
             else

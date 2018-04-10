@@ -171,6 +171,8 @@ namespace Leap.Unity {
         }
       }
 
+        int keyPrimary = getFingerJointIndex(1, 1);
+
       //Draw cylinders between finger knuckles
       for (int i = 0; i < 4; i++) {
         int keyA = getFingerJointIndex(i, 0);

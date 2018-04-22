@@ -9,6 +9,7 @@ public class InterfaceBehavior : MonoBehaviour
     public GameObject pointer;
     private LineRenderer lineRenderer;
     public GameObject dot;
+    public static bool isScaling = true;
     // Use this for initialization
     void Start()
     {
@@ -61,7 +62,22 @@ public class InterfaceBehavior : MonoBehaviour
                         dot.transform.position = hit.point;
                     }
                     dot.SetActive(true);
-                    dot.transform.localScale = new Vector3(dot.transform.localScale.x, scaleY, dot.transform.localScale.z);
+                    if (isScaling)
+                    {
+                        dot.transform.localScale = new Vector3(dot.transform.localScale.x, scaleY, dot.transform.localScale.z);
+                    }
+                    else {
+                        //Debug.Log(distance);
+                        if (distance > 0.06f)
+                        {
+                            isScaling = true;
+                            Debug.Log("distance > 0.1f");
+                            //break;
+                        }
+                        
+                            dot.transform.localScale = new Vector3(dot.transform.localScale.x, distance, dot.transform.localScale.z);
+                        
+                    }
                     RaycastHit dotHit;
                     if (Physics.Raycast(ray, out dotHit, distance1, 1)) {
                         float dotDistance = hit.distance;
@@ -84,7 +100,12 @@ public class InterfaceBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
+       // _isScaling = false;
+        Debug.Log("collision enter");
+    }
+    private void OnTriggerExit(Collider other)
+    {
+       // _isScaling = true;
     }
 
     void vertexMover(GameObject obj, Vector3 point)

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-04-21T22:47:05.8390698-07:00
-  initializedAtString: 2018-04-21T20:23:43.1741181-07:00
+  lastUpdatedAtString: 2018-04-21T23:26:56.9616595-07:00
+  initializedAtString: 2018-04-21T22:49:22.8924379-07:00
   entries:
   - path: .vs\NaturalUserInterface\v15\.suo
     fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\.vs\NaturalUserInterface\v15\.suo
@@ -27,23 +27,23 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scenes\NaturalUserInterface.unity
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Assets\Scenes\NaturalUserInterface.unity
-    projectPath: Assets\Scenes\NaturalUserInterface.unity
+  - path: .vs\NaturalUserInterface\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\.vs\NaturalUserInterface\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\NaturalUserInterface\v15\Server\sqlite3\storage.ide-shm
     originalPath: 
-    status: 3
+    status: 1
+    staged: 0
+  - path: .vs\NaturalUserInterface\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\.vs\NaturalUserInterface\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\NaturalUserInterface\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    status: 1
     staged: 0
   - path: Assets\Scripts\buttonBehavior.cs
     fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Assets\Scripts\buttonBehavior.cs
     projectPath: Assets\Scripts\buttonBehavior.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts\buttonBehavior.cs.meta
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Assets\Scripts\buttonBehavior.cs.meta
-    projectPath: Assets\Scripts\buttonBehavior.cs.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Scripts\InterfaceBehavior.cs
     fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Assets\Scripts\InterfaceBehavior.cs
@@ -57,33 +57,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\EditorInstance.json
     fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -96,12 +78,6 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gituser.yaml
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -133,13 +109,7 @@ MonoBehaviour:
     fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\metadata\4f\4f4f9200d5ecbd140aa83456149cb3e2
     projectPath: Library\metadata\4f\4f4f9200d5ecbd140aa83456149cb3e2
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\4f\4f4f9200d5ecbd140aa83456149cb3e2.info
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\metadata\4f\4f4f9200d5ecbd140aa83456149cb3e2.info
-    projectPath: Library\metadata\4f\4f4f9200d5ecbd140aa83456149cb3e2.info
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -150,18 +120,6 @@ MonoBehaviour:
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: NaturalUserInterface.csproj
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\NaturalUserInterface.csproj
-    projectPath: NaturalUserInterface.csproj
     originalPath: 
     status: 3
     staged: 0
@@ -183,165 +141,129 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-030ebc21518e2a447a5aab08f7b8b1fb
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-030ebc21518e2a447a5aab08f7b8b1fb
-    projectPath: Temp\UnityTempFile-030ebc21518e2a447a5aab08f7b8b1fb
+  - path: Temp\UnityTempFile-0e2bc6891683ec34f86da1449d25da14
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-0e2bc6891683ec34f86da1449d25da14
+    projectPath: Temp\UnityTempFile-0e2bc6891683ec34f86da1449d25da14
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-0874f009433899d4385b221d1d2487b8
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-0874f009433899d4385b221d1d2487b8
-    projectPath: Temp\UnityTempFile-0874f009433899d4385b221d1d2487b8
+  - path: Temp\UnityTempFile-226ddf1e9ea9b16438bb66cbe6c86977
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-226ddf1e9ea9b16438bb66cbe6c86977
+    projectPath: Temp\UnityTempFile-226ddf1e9ea9b16438bb66cbe6c86977
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-09dcef256947c904c9ee77c668c8db2a
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-09dcef256947c904c9ee77c668c8db2a
-    projectPath: Temp\UnityTempFile-09dcef256947c904c9ee77c668c8db2a
+  - path: Temp\UnityTempFile-291b4efddcace384e9f05dc5af37ab1a
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-291b4efddcace384e9f05dc5af37ab1a
+    projectPath: Temp\UnityTempFile-291b4efddcace384e9f05dc5af37ab1a
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-0a92db6660460364887da2d0c9e36a6f
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-0a92db6660460364887da2d0c9e36a6f
-    projectPath: Temp\UnityTempFile-0a92db6660460364887da2d0c9e36a6f
+  - path: Temp\UnityTempFile-2c67d5c950e5b6e42aa4888dd669f3c3
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-2c67d5c950e5b6e42aa4888dd669f3c3
+    projectPath: Temp\UnityTempFile-2c67d5c950e5b6e42aa4888dd669f3c3
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-0c46686c3277a7a4dbe7209e62645670
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-0c46686c3277a7a4dbe7209e62645670
-    projectPath: Temp\UnityTempFile-0c46686c3277a7a4dbe7209e62645670
+  - path: Temp\UnityTempFile-2fe42c36e6072564f8a080763544b389
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-2fe42c36e6072564f8a080763544b389
+    projectPath: Temp\UnityTempFile-2fe42c36e6072564f8a080763544b389
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-0cd8283001f565a4eb17a78ec024a618
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-0cd8283001f565a4eb17a78ec024a618
-    projectPath: Temp\UnityTempFile-0cd8283001f565a4eb17a78ec024a618
+  - path: Temp\UnityTempFile-37402d73ea7fd394ca798d14376fc3dd
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-37402d73ea7fd394ca798d14376fc3dd
+    projectPath: Temp\UnityTempFile-37402d73ea7fd394ca798d14376fc3dd
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-14161426a1da6b444b20a2277849db8b
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-14161426a1da6b444b20a2277849db8b
-    projectPath: Temp\UnityTempFile-14161426a1da6b444b20a2277849db8b
+  - path: Temp\UnityTempFile-3b59f8bdb33b73447819a6fcec7fccb8
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-3b59f8bdb33b73447819a6fcec7fccb8
+    projectPath: Temp\UnityTempFile-3b59f8bdb33b73447819a6fcec7fccb8
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-16159f9aad9de014bb37d5743f57256d
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-16159f9aad9de014bb37d5743f57256d
-    projectPath: Temp\UnityTempFile-16159f9aad9de014bb37d5743f57256d
+  - path: Temp\UnityTempFile-45db9b490cbda1648be0dcd848902baa
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-45db9b490cbda1648be0dcd848902baa
+    projectPath: Temp\UnityTempFile-45db9b490cbda1648be0dcd848902baa
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-187ff33547f4c8d49b4a3b470c126ae0
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-187ff33547f4c8d49b4a3b470c126ae0
-    projectPath: Temp\UnityTempFile-187ff33547f4c8d49b4a3b470c126ae0
+  - path: Temp\UnityTempFile-4601b24023eaa7f41b3baa5a0165e62e
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-4601b24023eaa7f41b3baa5a0165e62e
+    projectPath: Temp\UnityTempFile-4601b24023eaa7f41b3baa5a0165e62e
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-1f17df9b311b6c048a91c6ef3e642220
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-1f17df9b311b6c048a91c6ef3e642220
-    projectPath: Temp\UnityTempFile-1f17df9b311b6c048a91c6ef3e642220
+  - path: Temp\UnityTempFile-64b98731e4e0f134c97453d7cb8afbf2
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-64b98731e4e0f134c97453d7cb8afbf2
+    projectPath: Temp\UnityTempFile-64b98731e4e0f134c97453d7cb8afbf2
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-3af43949381197c4e96f3556a831e156
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-3af43949381197c4e96f3556a831e156
-    projectPath: Temp\UnityTempFile-3af43949381197c4e96f3556a831e156
+  - path: Temp\UnityTempFile-66721b6594691e646ba29f9d87176cad
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-66721b6594691e646ba29f9d87176cad
+    projectPath: Temp\UnityTempFile-66721b6594691e646ba29f9d87176cad
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-49d41f8122d48d645871121e17b42670
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-49d41f8122d48d645871121e17b42670
-    projectPath: Temp\UnityTempFile-49d41f8122d48d645871121e17b42670
+  - path: Temp\UnityTempFile-66d8251e14a89b24cb9cc1e29138d1a8
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-66d8251e14a89b24cb9cc1e29138d1a8
+    projectPath: Temp\UnityTempFile-66d8251e14a89b24cb9cc1e29138d1a8
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-5a56444c9eb1fae4e9c284dccf5c4d5b
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-5a56444c9eb1fae4e9c284dccf5c4d5b
-    projectPath: Temp\UnityTempFile-5a56444c9eb1fae4e9c284dccf5c4d5b
+  - path: Temp\UnityTempFile-9006667e60893804ca783ae98758e1d9
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-9006667e60893804ca783ae98758e1d9
+    projectPath: Temp\UnityTempFile-9006667e60893804ca783ae98758e1d9
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-6a65928183bf9794baf3370d216e3399
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-6a65928183bf9794baf3370d216e3399
-    projectPath: Temp\UnityTempFile-6a65928183bf9794baf3370d216e3399
+  - path: Temp\UnityTempFile-91934b6b35b60584b917c8bc8669f1cd
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-91934b6b35b60584b917c8bc8669f1cd
+    projectPath: Temp\UnityTempFile-91934b6b35b60584b917c8bc8669f1cd
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-6d2f11f42a92b6048a21f4843b0addbf
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-6d2f11f42a92b6048a21f4843b0addbf
-    projectPath: Temp\UnityTempFile-6d2f11f42a92b6048a21f4843b0addbf
+  - path: Temp\UnityTempFile-a2e321d559c2a684e911d6c2d4ebd13c
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-a2e321d559c2a684e911d6c2d4ebd13c
+    projectPath: Temp\UnityTempFile-a2e321d559c2a684e911d6c2d4ebd13c
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-79f9e8455806bb146a2875c8f1388fe4
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-79f9e8455806bb146a2875c8f1388fe4
-    projectPath: Temp\UnityTempFile-79f9e8455806bb146a2875c8f1388fe4
+  - path: Temp\UnityTempFile-a9529b928610c524d92c248ebe881a22
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-a9529b928610c524d92c248ebe881a22
+    projectPath: Temp\UnityTempFile-a9529b928610c524d92c248ebe881a22
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-92bb87180845d094388245a75ebf8d08
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-92bb87180845d094388245a75ebf8d08
-    projectPath: Temp\UnityTempFile-92bb87180845d094388245a75ebf8d08
+  - path: Temp\UnityTempFile-ad326aceb7a0d764eb7086432d95dad5
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-ad326aceb7a0d764eb7086432d95dad5
+    projectPath: Temp\UnityTempFile-ad326aceb7a0d764eb7086432d95dad5
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-bc24d665247ad9946806dc4a82a29346
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-bc24d665247ad9946806dc4a82a29346
-    projectPath: Temp\UnityTempFile-bc24d665247ad9946806dc4a82a29346
+  - path: Temp\UnityTempFile-bc90c8a636ee7a245960905abb311267
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-bc90c8a636ee7a245960905abb311267
+    projectPath: Temp\UnityTempFile-bc90c8a636ee7a245960905abb311267
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-dd7cff99040208a45b9de9fabfd964ad
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-dd7cff99040208a45b9de9fabfd964ad
-    projectPath: Temp\UnityTempFile-dd7cff99040208a45b9de9fabfd964ad
+  - path: Temp\UnityTempFile-c14e0a4fdb02e1646a40ffeadb6bcf1a
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-c14e0a4fdb02e1646a40ffeadb6bcf1a
+    projectPath: Temp\UnityTempFile-c14e0a4fdb02e1646a40ffeadb6bcf1a
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-e135bc0a8413cc94e887e95e7b422008
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-e135bc0a8413cc94e887e95e7b422008
-    projectPath: Temp\UnityTempFile-e135bc0a8413cc94e887e95e7b422008
+  - path: Temp\UnityTempFile-ce41c2556694b8a4596bd4c9a5723cd4
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-ce41c2556694b8a4596bd4c9a5723cd4
+    projectPath: Temp\UnityTempFile-ce41c2556694b8a4596bd4c9a5723cd4
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-e1d8f5d41d589a64ea518abbcab85f4a
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-e1d8f5d41d589a64ea518abbcab85f4a
-    projectPath: Temp\UnityTempFile-e1d8f5d41d589a64ea518abbcab85f4a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-e3eb81978c2d6c54582f250e71aa2f7d
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-e3eb81978c2d6c54582f250e71aa2f7d
-    projectPath: Temp\UnityTempFile-e3eb81978c2d6c54582f250e71aa2f7d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-e5796b75542ad3542a2c9b821e70fc16
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-e5796b75542ad3542a2c9b821e70fc16
-    projectPath: Temp\UnityTempFile-e5796b75542ad3542a2c9b821e70fc16
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-e8b037bfa2e34814e903ba759f887a35
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-e8b037bfa2e34814e903ba759f887a35
-    projectPath: Temp\UnityTempFile-e8b037bfa2e34814e903ba759f887a35
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-ef461429837e3d842b2a858227123a9e
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-ef461429837e3d842b2a858227123a9e
-    projectPath: Temp\UnityTempFile-ef461429837e3d842b2a858227123a9e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-f8a402b435088514fa0a7d59efdfdade
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-f8a402b435088514fa0a7d59efdfdade
-    projectPath: Temp\UnityTempFile-f8a402b435088514fa0a7d59efdfdade
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-fe0dc6b5fdd7557448addfeedc25ae19
-    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-fe0dc6b5fdd7557448addfeedc25ae19
-    projectPath: Temp\UnityTempFile-fe0dc6b5fdd7557448addfeedc25ae19
+  - path: Temp\UnityTempFile-ce60c434b9f22bb46b7557604cb57580
+    fullPath: C:\Users\mukul\Desktop\Prototypes\NaturalUserInterface\Temp\UnityTempFile-ce60c434b9f22bb46b7557604cb57580
+    projectPath: Temp\UnityTempFile-ce60c434b9f22bb46b7557604cb57580
     originalPath: 
     status: 1
     staged: 0

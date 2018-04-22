@@ -22,10 +22,12 @@ public class buttonBehavior : MonoBehaviour {
 
     void OnTriggerEnter(Collider col){
         _rend.material.color = highlightColor;
-        Debug.Log("collision enter");
+        //
+        InterfaceBehavior.isScaling = false;
     }
 
     void OnTriggerExit(Collider collisionInfo) {
         _rend.material.color = _originalColor;
+        InterfaceBehavior.isScaling = true;
     }
 }

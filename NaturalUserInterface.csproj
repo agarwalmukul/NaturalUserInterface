@@ -437,6 +437,7 @@
     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\InteractionControllerSwitcher.cs" />
     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\KabschSolver.cs" />
     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\PhysicsCallbacks.cs" />
+    <Compile Include="Assets\Scripts\buttonBehavior.cs" />
     <Compile Include="Assets\Scripts\InterfaceBehavior.cs" />
   </ItemGroup>
   <ItemGroup>

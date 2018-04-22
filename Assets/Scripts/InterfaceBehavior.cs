@@ -21,7 +21,7 @@ public class InterfaceBehavior : MonoBehaviour
         lineRenderer.widthMultiplier = 0.02f;
         lineRenderer.positionCount = 2;
         lineRenderer.SetPosition(0, pointer.transform.position);
-        lineRenderer.SetPosition(1, pointer.transform.position + new Vector3(0, 0, 10.0f));
+        lineRenderer.SetPosition(1, pointer.transform.position + Vector3.Cross( dot.transform.forward, dot.transform.right) * - 10.0f);
     }
 
     // Update is called once per frame
@@ -34,13 +34,13 @@ public class InterfaceBehavior : MonoBehaviour
     {
         lineRenderer.SetPosition(0, pointer.transform.position);
         //lineRenderer.SetPosition(1, pointer.transform.position - Vector3.Cross(pointer.transform.forward, pointer.transform.right) * 10.0f);
-        lineRenderer.SetPosition(1, pointer.transform.position + new Vector3(0,0,10.0f) );
+        lineRenderer.SetPosition(1, pointer.transform.position + Vector3.Cross(dot.transform.forward, dot.transform.right) * -10.0f);
         //if mouse button (left hand side) pressed instantiate a raycast
         //if (Input.GetMouseButtonDown(0))
         {
             //create a ray cast and set it to the mouses cursor position in game
             //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            Ray ray = new Ray(pointer.transform.position, new Vector3(0, 0, 10.0f));
+            Ray ray = new Ray(pointer.transform.position, Vector3.Cross(dot.transform.forward, dot.transform.right) * -10.0f);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, distance1, 1<<5))
             {
@@ -65,7 +65,8 @@ public class InterfaceBehavior : MonoBehaviour
                     RaycastHit dotHit;
                     if (Physics.Raycast(ray, out dotHit, distance1, 1)) {
                         float dotDistance = hit.distance;
-                        Debug.Log(dotDistance);
+                        //Debug.Log(dotDistance);
+                        
                     }
                     //Debug.Log(hit.collider.gameObject.Name);
                 }
@@ -79,6 +80,11 @@ public class InterfaceBehavior : MonoBehaviour
                 dot.SetActive(false);
             }
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
     }
 
     void vertexMover(GameObject obj, Vector3 point)

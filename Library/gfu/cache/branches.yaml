@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-04-21T18:52:38.6432370-07:00
-  initializedAtString: 2018-04-21T18:48:28.9625955-07:00
+  lastUpdatedAtString: 2018-04-21T19:00:19.0642126-07:00
+  initializedAtString: 2018-04-21T18:59:50.7884720-07:00
   localBranches:
   - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/master
     tracking: '[None]'
-  remoteBranches: []
   remotes:
   - name: origin
     url: https://github.com/agarwalmukul/NaturalUserInterface.git
@@ -32,13 +34,22 @@ MonoBehaviour:
     values:
     - name: master
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/agarwalmukul/NaturalUserInterface.git
+      trackingBranch: master
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/agarwalmukul/NaturalUserInterface.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
